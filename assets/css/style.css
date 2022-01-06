@@ -33,14 +33,14 @@ p {
 }
 
 #hero-box{
-    height: 500px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image{
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
 }
@@ -55,10 +55,10 @@ p {
 }
 
 #kanji-box-vertical{
-    background-color: rgba(62, 21, 21, 0.8);
+    background-color: rgba(23, 9, 8, 0.6);
     width: 140px;
     height: 390px;
     bottom: 30px;
-    right: 30px;
+    left: 30px;
     position: absolute;
 }
