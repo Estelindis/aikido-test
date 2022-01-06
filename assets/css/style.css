@@ -1,13 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Yuji+Syuku&display=swap');
 
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    color: #3e1515;
+    background-color: #eed7d1;
+}
+
 body{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    color: #3e1515;
-    background-color: #f9edea;
 }
 
 h1, h2{
     font-family: 'Yuji Syuku', serif;
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+#logo-maynooth{
+    font-size: 125%;
+    margin-left: 10px;
+}
+
+#logo-aikido{
     text-transform: uppercase;
-    color: #3e1515;
+    font-size: 200%;
+    margin-left: 10px;
+}
+
+#hero-box{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image{
+    height: 500px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
+}
+
+#kanji-vertical{
+    font-family: 'Yuji Syuku', serif;
+    color: #eed7d1;
+    background-color: rgba(62, 21, 21, 0);
+    font-size: 700%;
+    line-height: 1.1;
+    text-align: center;
+}
+
+#kanji-box-vertical{
+    background-color: rgba(62, 21, 21, 0.8);
+    width: 140px;
+    height: 390px;
+    bottom: 30px;
+    right: 30px;
+    position: absolute;
 }
